@@ -67,7 +67,7 @@ main (){
 	
 	bantuanTotal=(bantuan[0]+bantuan[1]+bantuan[2]+bantuan[3])*30;
 	
-	cout<<"Total bantuan selama satu bulan Rp. "<<bantuanTotal<<endl<<endl;
+	cout<<"Total bantuan selama satu bulan Rp. "<<fixed<<bantuanTotal<<endl<<endl;
 }     
  
 }
