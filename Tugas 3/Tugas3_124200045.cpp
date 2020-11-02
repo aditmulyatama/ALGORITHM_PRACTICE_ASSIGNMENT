@@ -46,6 +46,7 @@ int main(){
 		cout<<endl;
 		
 		switch (pil) {
+			
 			case 1:
 			cout<<"Nilai Harian : "; cin>>nHarian;
 			cout<<"Nilai UTS : "; cin>>nUTS;
