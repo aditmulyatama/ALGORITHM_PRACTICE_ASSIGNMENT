@@ -19,9 +19,9 @@ int main(){
 	 		for(y=1;y<=L;y++){
 				for(x=1;x<=p;x++){
 					if((y>1&&y<L)&&(x>1&&x<p)){
-						cout<<" ";
+						cout<<"  ";
 					} else {
-						cout<<"*";
+						cout<<"* ";
 					}
 				}
 				cout<<endl;
