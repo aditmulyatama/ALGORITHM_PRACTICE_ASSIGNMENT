@@ -16,9 +16,9 @@ int main(){
 			cout<<"lebar : "; cin>>L;
 			cout<<endl;
 	
-	 		for(y=1;y<=L;y++){
-				for(x=1;x<=p;x++){
-					if((y>1&&y<L)&&(x>1&&x<p)){
+	 		for(x=1;x<=L;x++){
+				for(y=1;y<=p;y++){
+					if((x>1&&x<L)&&(y>1&&y<p)){
 						cout<<"  ";
 					} else {
 						cout<<"* ";
