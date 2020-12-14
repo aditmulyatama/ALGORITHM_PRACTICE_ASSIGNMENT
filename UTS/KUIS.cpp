@@ -118,6 +118,7 @@ int main(){
 			
 		case 4:
 			exit(0);
+			break;
 			
 		default:
 			cout<<"Mohon maaf anda salah input";
