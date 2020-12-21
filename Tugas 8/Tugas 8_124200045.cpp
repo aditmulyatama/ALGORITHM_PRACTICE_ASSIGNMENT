@@ -65,5 +65,5 @@ float kel(float jari){
 }
 
 float volume(float jari, float t){
-	return phi*jari*jari*t;
+	return luas(jari)*t;
 }
